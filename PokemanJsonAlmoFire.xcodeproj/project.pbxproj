@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7107415C1D0FE07000136937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107415B1D0FE07000136937 /* AppDelegate.swift */; };
+		7107415E1D0FE07000136937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107415D1D0FE07000136937 /* ViewController.swift */; };
+		710741611D0FE07000136937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7107415F1D0FE07000136937 /* Main.storyboard */; };
+		710741631D0FE07000136937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710741621D0FE07000136937 /* Assets.xcassets */; };
+		710741661D0FE07000136937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710741641D0FE07000136937 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		710741581D0FE07000136937 /* PokemanJsonAlmoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemanJsonAlmoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7107415B1D0FE07000136937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7107415D1D0FE07000136937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		710741601D0FE07000136937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710741621D0FE07000136937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710741651D0FE07000136937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710741671D0FE07000136937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710741551D0FE07000136937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7107414F1D0FE07000136937 = {
+			isa = PBXGroup;
+			children = (
+				7107415A1D0FE07000136937 /* PokemanJsonAlmoFire */,
+				710741591D0FE07000136937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710741591D0FE07000136937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710741581D0FE07000136937 /* PokemanJsonAlmoFire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7107415A1D0FE07000136937 /* PokemanJsonAlmoFire */ = {
+			isa = PBXGroup;
+			children = (
+				7107415B1D0FE07000136937 /* AppDelegate.swift */,
+				7107415D1D0FE07000136937 /* ViewController.swift */,
+				7107415F1D0FE07000136937 /* Main.storyboard */,
+				710741621D0FE07000136937 /* Assets.xcassets */,
+				710741641D0FE07000136937 /* LaunchScreen.storyboard */,
+				710741671D0FE07000136937 /* Info.plist */,
+			);
+			path = PokemanJsonAlmoFire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710741571D0FE07000136937 /* PokemanJsonAlmoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7107416A1D0FE07000136937 /* Build configuration list for PBXNativeTarget "PokemanJsonAlmoFire" */;
+			buildPhases = (
+				710741541D0FE07000136937 /* Sources */,
+				710741551D0FE07000136937 /* Frameworks */,
+				710741561D0FE07000136937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemanJsonAlmoFire;
+			productName = PokemanJsonAlmoFire;
+			productReference = 710741581D0FE07000136937 /* PokemanJsonAlmoFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710741501D0FE07000136937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MichaelH;
+				TargetAttributes = {
+					710741571D0FE07000136937 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 710741531D0FE07000136937 /* Build configuration list for PBXProject "PokemanJsonAlmoFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7107414F1D0FE07000136937;
+			productRefGroup = 710741591D0FE07000136937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710741571D0FE07000136937 /* PokemanJsonAlmoFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710741561D0FE07000136937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710741661D0FE07000136937 /* LaunchScreen.storyboard in Resources */,
+				710741631D0FE07000136937 /* Assets.xcassets in Resources */,
+				710741611D0FE07000136937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710741541D0FE07000136937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7107415E1D0FE07000136937 /* ViewController.swift in Sources */,
+				7107415C1D0FE07000136937 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7107415F1D0FE07000136937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710741601D0FE07000136937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710741641D0FE07000136937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710741651D0FE07000136937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710741681D0FE07000136937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		710741691D0FE07000136937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7107416B1D0FE07000136937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemanJsonAlmoFire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.PokemanJsonAlmoFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7107416C1D0FE07000136937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemanJsonAlmoFire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.PokemanJsonAlmoFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710741531D0FE07000136937 /* Build configuration list for PBXProject "PokemanJsonAlmoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710741681D0FE07000136937 /* Debug */,
+				710741691D0FE07000136937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7107416A1D0FE07000136937 /* Build configuration list for PBXNativeTarget "PokemanJsonAlmoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7107416B1D0FE07000136937 /* Debug */,
+				7107416C1D0FE07000136937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710741501D0FE07000136937 /* Project object */;
+}
