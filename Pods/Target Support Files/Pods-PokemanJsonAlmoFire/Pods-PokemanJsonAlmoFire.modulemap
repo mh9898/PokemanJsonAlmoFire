@@ -1,0 +1,6 @@
+framework module Pods_PokemanJsonAlmoFire {
+  umbrella header "Pods-PokemanJsonAlmoFire-umbrella.h"
+
+  export *
+  module * { export * }
+}

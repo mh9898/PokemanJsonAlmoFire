@@ -392,12 +392,14 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="baseAttackLbl" destination="TOn-8i-KRI" id="3eN-Wa-TWU"/>
+                        <outlet property="baseAttackLbl" destination="MBm-h6-KuR" id="bvq-Gn-IXD"/>
                         <outlet property="currentEvoImg" destination="kWV-HK-HL8" id="Tdi-Tu-Ynk"/>
                         <outlet property="defenceLbl" destination="H2c-vN-SuU" id="9eP-0P-smV"/>
                         <outlet property="descriptionLbl" destination="Ycs-bH-CN0" id="vok-gu-CiV"/>
                         <outlet property="heightLbl" destination="xoN-PK-gj3" id="EDc-5m-EeL"/>
                         <outlet property="mainImg" destination="l10-fc-usi" id="0JM-2K-5ne"/>
+                        <outlet property="nextEvoImg" destination="Llw-07-Qpz" id="2s6-6n-hqm"/>
+                        <outlet property="nextEvoLbl" destination="ig0-qc-p9X" id="RFJ-Yq-6EV"/>
                         <outlet property="pokeIdLbl" destination="VPs-yw-t6I" id="LdY-T3-0qV"/>
                         <outlet property="titleLbl" destination="2eU-to-KxI" id="ksA-1j-M2E"/>
                         <outlet property="typeLbl" destination="gVo-bB-oYG" id="X6m-Iq-3EG"/>

@@ -33,6 +33,88 @@ class Pokemon {
         return _pokemonId
     }
     
+    var description: String{
+        get{
+            if _description == nil{
+              _description = ""
+            }
+        return _description
+        }
+    }
+    
+    var type : String{
+        get{
+           if _type == nil{
+              _type = ""
+            }
+        return _type
+        }
+    }
+    
+    var defense: String{
+        get{
+            if _defense == nil{
+                _defense = ""
+            }
+        return _defense
+        }
+    }
+    
+    var height: String{
+        get{
+            if _height == nil{
+                _height = ""
+            }
+        return _height
+        }
+    }
+    
+    var weight: String{
+        get{
+            if _weight == nil{
+                _weight = ""
+            }
+        return _weight
+        }
+    }
+    
+    var attack: String{
+        get{
+            if _attack == nil{
+                _attack = ""
+            }
+        return _attack
+        }
+    }
+    
+    var nextEvolutionTxt : String{
+        get{
+            if _nextEvolutionTxt == nil{
+                _nextEvolutionTxt == ""
+            }
+        return _nextEvolutionTxt
+        }
+    }
+    
+    var nextEvolutionId : String{
+        get {
+            if _nextEvolutionId == nil{
+                _nextEvolutionId = ""
+            }
+        return _nextEvolutionId
+        }
+    }
+    
+    var nextEvolutionLevel : String{
+        get{
+            if _nextEvolutionLevel == nil{
+                _nextEvolutionLevel = ""
+            }
+        return _nextEvolutionLevel
+        }
+    }
+    
+    
     
     init(name: String, pokemonId: Int){
         self._name = name
@@ -118,6 +200,7 @@ class Pokemon {
                                     print(self._description)
                                 }
                             }
+                            completed()
                         }
                         
                     }
