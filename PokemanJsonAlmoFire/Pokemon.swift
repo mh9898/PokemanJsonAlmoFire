@@ -90,7 +90,7 @@ class Pokemon {
     var nextEvolutionTxt : String{
         get{
             if _nextEvolutionTxt == nil{
-                _nextEvolutionTxt == ""
+                _nextEvolutionTxt = ""
             }
         return _nextEvolutionTxt
         }
